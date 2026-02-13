@@ -1,0 +1,252 @@
+/* ===========================
+   Global Styles
+   =========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ===========================
+   Header Section
+   =========================== */
+.headre {
+  width: 100%;
+}
+
+.hearder-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.logo h4 {
+  font-size: 2.5rem;
+}
+
+.navi ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.navi-main li a {
+  text-decoration: none;
+}
+
+.menu {
+  display: none;
+}
+
+/* ===========================
+   Hero Section
+   =========================== */
+.hero {
+  width: 100%;
+  height: 40rem;
+  background-image: url(/image/pexels-dawidtkocz-35665797.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  height: 100%;
+
+  display: flex;          /* 🔑 */
+  align-items: center;
+  
+  
+}
+
+.hero-text {
+  width: 45%;
+  color: white;
+}
+
+.hero-text h4 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+}
+
+.hero-btn button {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  background-color: blue;
+  color: white;
+  border-radius: 2rem;
+}
+
+/* ===========================
+   Choose Section
+   =========================== */
+.chooes {
+  width: 100%;
+}
+
+.chooes-head {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.chooes-head h4 {
+  font-size: 3rem;
+}
+
+.chooes-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.choes1 {
+  width: 82%;
+  text-align: center;
+}
+
+.fa-heart {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  color: blue;
+}
+
+.choes1 h5 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.choes1 p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.chooes-btn button {
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  background-color: blue;
+  color: white;
+}
+
+/* ===========================
+   Work Section
+   =========================== */
+.work {
+  width: 100%;
+}
+
+.work-head {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.work-head h4 {
+  font-size: 3rem;
+}
+
+.work-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.work1 {
+  text-align: start;
+}
+
+.work1 img {
+  width: 100%;
+  height: 15rem;
+}
+
+.work1 h4,
+.work1 h6 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.work1 p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.work-btn button {
+  padding: 1rem 1.5rem;
+  background-color: blue;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* ===========================
+   About Section
+   =========================== */
+.about {
+  width: 100%;
+  height: 40rem;
+  background-image: url('/image/pexels-my-photos-50266345-8007891.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.about-img,
+.about-text {
+  margin-top: 8rem;
+}
+
+.about-img img {
+  width: 100%;
+  height: 27rem;
+}
+
+.about-text {
+  width: 80%;
+}
+
+.about-text h4 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-text p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.about-btn button {
+  padding: 1rem 2rem;
+  background-color: blue;
+  color: white;
+  margin-top: 2rem;
+}

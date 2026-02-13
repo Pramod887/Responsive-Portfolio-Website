@@ -1,0 +1,8 @@
+.headre1{
+  width: 100%;
+}
+.headr-main{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}

@@ -1,0 +1,385 @@
+html{
+  font-size: 62.5%;
+}
+*{
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+.hero{
+  width: 100%;
+  background-color: antiquewhite;
+}
+.hero-main{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:3rem
+  
+}
+.hero-text {
+  width: 100%
+}
+.hero-h{
+  text-align: start;
+  font-size: 5rem;
+}
+.hero-p{
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.hero-text button{
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+.hero-img  img {
+  width: 100%;
+  height: 35rem;
+}
+
+/*quality*/
+.quality{
+  width: 100%;
+}
+.quality-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.qu1{
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+.qu1  p,.qu1 h4,
+.qu2  p,.qu2 h4,
+.qu3  p,.qu3 h4{
+  padding-top: 2rem;
+  width: 70%;
+  padding-left:4rem;
+  margin: 0 auto;
+  font-size: 2rem
+}
+.qu2{
+  background-color: rgb(12, 237, 234);
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.qu3{
+  background-color: rgb(211, 18, 18);
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.qul1,
+.qul2,
+.qul3,h4{
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+.qpl-p{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem 0rem;
+  width: 80%;
+  margin-left: 8rem;
+
+  
+}
+/*company*/
+.company{
+  width: 100%;
+}
+.compnay-main{
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.fa-anchor{
+   max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3rem;
+}
+.company-h{
+  font-size: 3rem;
+  font-weight: 600;
+}
+.companey-p{
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: rgb(42, 42, 42);
+}
+.company-btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+.company-btn button {
+  padding: 1rem 2rem;
+  background-color: blanchedalmond;
+  color: rgb(1, 0, 0);
+  border-radius: 2rem;
+}
+/*things*/
+.things{
+  width: 100%;
+  margin-top: 2rem;
+}
+.things-main{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+}
+.things-img img{
+ width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.things-text{
+  margin: 0 auto;
+  background-color: rgb(35, 139, 139);
+}
+.thingsh{
+  font-size: 4rem;
+  width: 70%;
+  margin: 0 auto;
+  text-align: start;
+  padding-bottom: 2rem;
+   color: white;
+   padding-top: 2rem;
+}
+.thinsp{
+  font-size: 2rem;
+  width: 70%;
+  text-align: start;
+  line-height: 3rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  color: white;
+}
+.thingsp2{
+  font-size: 2rem;
+  text-align: start;
+  line-height: 3rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  width: 70%;
+   color: white;
+
+}
+.thins-btn{
+   margin: 0 auto;
+  width: 70%;
+}
+.thins-btn button{
+  padding: 1rem 2rem;
+  background-color: aliceblue;
+  color: rgb(16, 213, 193);
+  border-radius: 2rem;
+  
+}
+/*service*/
+.service{
+  width: 100%;
+}
+.service-head{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.service-head h3 {
+  font-size: 4rem;
+  font-family: 600;
+  margin-top: 2rem ;
+}
+.service-head p{
+  font-size: 2rem;
+}
+.service-main{
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.service1{
+  text-align: center;
+}
+
+.service1 h3{
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+.service1 p{
+  font-size: 2rem;
+  width: 90%;
+}
+.service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-icon i {
+  width: 6rem;          
+  height: 6rem;             
+  background-color: aqua;
+  border-radius: 50%;       
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+.service-btn{
+  text-align: center;
+  margin: 2rem 0;
+}
+.service-btn button{
+  padding: 1rem 2rem;
+  border: 2px solid #219003;
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+/*thinsg2*/
+.things2{
+  width: 100%;
+  margin-top: 2rem;
+}
+.things-main2{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.things-img2 img{
+  width: 100%;
+  display: block;
+  
+ 
+}
+
+.things-text2{
+  margin: 0 auto;
+  background-color: rgb(162, 166, 166);
+}
+.thingsh2{
+  font-size: 4rem;
+  width: 70%;
+  margin: 0 auto;
+  text-align: start;
+  padding-bottom: 1rem;
+   color: rgb(0, 0, 0);
+   padding-top: 2rem;
+}
+.thinsp2{
+  font-size: 2rem;
+  width: 70%;
+  text-align: start;
+  line-height: 3rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  color: rgb(0, 0, 0);
+}
+.thingsp22{
+  font-size: 2rem;
+  text-align: start;
+  line-height: 3rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  width: 70%;
+   color: rgb(2, 2, 2);
+
+}
+.thins-btn2{
+   margin: 0 auto;
+  width: 70%;
+}
+.thins-btn2 button{
+  padding: 1rem 2rem;
+  background-color: aliceblue;
+  color: rgb(16, 213, 193);
+  border-radius: 2rem;
+  
+}
+/*last*/
+.last{
+  width: 100%;
+  background-color: rgb(8, 190, 218);
+}
+.last-main{
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+}
+.last-text h4{
+  font-size: 4rem;
+  text-align: start;
+}
+.last-text p{
+  font-size: 2rem;
+  text-align: start;
+  margin-bottom: 3rem;
+  line-height: 3rem;
+}
+
+.last-btn{
+  margin-top: 7rem;
+  align-items: center;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+.last-btn button{
+  padding: 1rem 3rem;
+  background-color: white;
+  color: rgb(54, 183, 183);
+  border-radius: 2rem;
+}
+.bs{
+  max-width: 90rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.bs h4{
+  font-size: 3rem;
+}
+.bs p{
+  font-size: 2rem;
+}
+.bs-btn{
+  text-align: center;
+  margin-top: 2rem;
+}
+.bs-btn button{
+  padding: 1rem 2rem;
+  background-color: aliceblue;
+  color: rgb(16, 213, 193);
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}

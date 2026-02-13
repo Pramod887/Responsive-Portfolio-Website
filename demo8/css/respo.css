@@ -1,0 +1,63 @@
+
+@media (max-width:700px){
+  html{
+    font-size: 55%;
+  }
+.icon{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.fa-calendar-check{
+  font-size: 2rem;
+}
+.icon-text{
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+}
+@media (max-width:500px){
+  html{
+    font-size: 50%;
+  }
+  html,
+  body{
+    overflow-x: hidden;
+  }
+  .about-main{
+  grid-template-columns:  1fr;
+  gap: 2rem;
+}
+.about-head{
+  text-align: center;
+}
+.about-head h4{
+margin-left: 3rem;
+}
+.iconss-main{
+  
+  gap:2.5rem;
+  padding: 2rem;
+  
+}
+.icon{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 1.5rem;
+}
+.fa-calendar-check{
+  font-size: 1.5rem;
+}
+.icon-text{
+  font-size: 2rem;
+}
+.team-main{
+  gap: 2rem;
+ 
+}
+}

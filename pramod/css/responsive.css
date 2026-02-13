@@ -1,0 +1,211 @@
+html,
+body{
+  overflow-x: hidden;
+}
+@media(max-width:700px){
+  html{
+    font-size: 50%;
+  }
+.course-main{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+
+/*480px*/
+@media(max-width:480px){
+  html{
+    font-size: 40%;
+  }
+
+  .navi{
+    display: none;
+  }
+.header-socila{
+  display: none;
+}
+.logo h4{
+  font-size: 5rem;
+}
+.menu{
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  padding: 1.5rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: #fdf2e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-bars{
+  font-size: 4rem;
+  color: red;
+}
+.hero-main{
+  grid-template-columns:  1fr;
+
+}
+.hero-text{
+  text-align: start;
+}
+.hero-text h4{
+  font-size: 6.5rem;
+  margin-top: 3rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.hero-text p{
+  font-size: 3rem;
+  line-height: 5rem;
+  text-align: start;
+}
+.hero-btn{
+  /* Improvement: Adjust gap for this breakpoint */
+  margin-top: 2.5rem;
+  gap: 3rem;
+}
+.hero-btn :first-child{
+  padding: 3rem 6rem;
+  font-size: 2rem;
+ 
+}
+.hero-btn :last-child{
+  padding: 3rem 6rem;
+  margin-left: 3rem;
+  /* margin-left: 3rem; */ /* Replaced with gap on parent */
+  font-size: 2rem;
+
+  
+}
+.about1-main{
+  grid-template-columns:  1fr;
+}
+.firsth{
+  font-size: 6rem;
+  width: 100%;
+  text-transform: capitalize;
+  line-height: 7rem;
+}
+.about1-p{
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+}
+.about1-p2{
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: rgb(98, 97, 97);
+  margin-bottom: 2.5rem;
+}
+.about1-right button{
+  
+  width: 45%;
+  /* width: 45%; */ /* Removed percentage width for natural sizing */
+  align-self: flex-start; /* Ensure alignment consistency */
+  padding: 2rem 4rem;;
+}
+.about2-main{
+  grid-template-columns: 1fr;
+}
+.abt2p{
+  font-size: 2.5rem;
+  
+}
+.abt2h4{
+  font-size: 6rem;
+  width: 100%;
+  
+}
+.abt2p2{
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+
+}
+.about2-icon i{
+  width: 12rem;
+  height: 12rem;
+}
+.about2-icon p{
+  width: 100%;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  padding-top: 0.5rem;
+}
+.start-main h4{
+  font-size: 3.5rem;
+}
+.start-main p{
+  font-size: 3rem;
+  font-size: 2.5rem; /* Adjusted for better readability on mobile */
+  line-height: 4rem;
+  width: 100%;
+
+}
+.start-btn{
+  /* Improvement: Stack buttons vertically on small screens */
+  flex-direction: column;
+  gap: 2rem;
+}
+.start-btn1{
+  padding: 2.5rem 5rem;
+font-size: 3rem;
+  
+  font-size: 3rem;
+}
+.start-btn2{
+  padding: 2.5rem 5rem;
+  font-size: 3rem;
+}
+.course-head h4{
+  font-size: 6rem;
+  width: 100%;
+}
+.serach{
+ flex-direction: column;
+}
+.serach-text{
+  width: 100%;
+}
+.serach-text p{
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  color: rgb(85, 85, 85);
+  text-align: center;
+}
+.serach-bar{
+  gap:5rem;
+  width: 100%;
+  margin-left: 4rem;
+  justify-content: center; /* Center search input and button */
+  /* margin-left: 4rem; */ /* Removed to allow proper centering */
+}
+.serach-bar input{
+  padding: 2rem 6rem;
+}
+.serach-bar button{
+  background-color: blue;
+  padding: 1.8rem 3.5rem;
+  
+}
+.fa-magnifying-glass{
+  font-size: 2rem;
+}
+.course-main{
+
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.course-1 > p{
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0 0.5rem;
+}
+.testimonial-main{
+  grid-template-columns: repeat(1, 1fr);
+}
+}

@@ -1,0 +1,137 @@
+@media(max-width:48em){
+  html{
+  font-size: 45%;
+
+}
+.headre-main{
+  grid-template-columns:1fr;
+}
+.heder-img{
+margin-left: 12rem;
+margin-top: 2rem;
+}
+.navi ul{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+   background-color: greenyellow;
+   padding: 2rem 0;
+   gap: 1.5rem;
+  
+}
+html,body{
+  overflow-x: hidden;
+}
+.hero-main{
+  grid-template-columns:1fr;
+  text-align: center;
+
+}
+.hero-desc{
+  font-size: 3rem;
+  line-height:4rem;
+}
+.hero-img{
+  grid-row: 1;
+}
+.work-main{
+  grid-template-columns:1fr;
+  text-align: center;
+}
+.work-text1 h4{
+  font-size: 3rem;
+}
+.work-text2 p,
+.work-text3 p {
+  font-size: 3rem;
+  line-height: 4rem;
+ 
+}
+.work2-main{
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.work2-text h4{
+  text-align: center;
+  padding-left: 1rem;
+}
+.work2-text p{
+  line-height: 3.4rem;
+  font-size: 3rem;
+}
+.work3-first p{
+  text-align: center;
+}
+.work3-main{
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+}
+.price-main{
+  grid-template-columns:  1fr;
+}
+.price1,
+.price2,
+.price3{
+  height: 100%;
+  width: 50%;
+  padding-left: 3rem;
+  margin-left: 15rem;
+  font-size: 3rem;
+  align-content: center;
+}
+.clint-main1{
+  grid-template-columns: 1fr;
+  margin: 1rem 2rem;
+}
+.clint-main2{
+  grid-template-columns: 1fr;
+  margin: 1rem 2rem;
+
+}
+.clint-main2text h4 ,p{
+text-align: center;
+line-height: 3rem;
+}
+.clint-text p , h3 {
+  text-align: center;
+  line-height: 3rem;
+
+}
+.footer-main{
+  grid-template-columns:  1fr;
+  justify-content: center;
+}
+
+.contacts{
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   margin-left: 4rem;
+
+}
+.footer-det p{
+  text-align: center;
+  width: 90%;
+  font-size: 2rem;
+}
+.footer-det h4{
+  text-align: center;
+}
+
+.forms{
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+ .forms button {
+  margin: 3rem auto 0;
+  display: block;
+}
+
+
+}

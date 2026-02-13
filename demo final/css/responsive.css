@@ -1,0 +1,166 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/*480*/
+
+@media (max-width: 480px) {
+  html {
+    font-size: 45%;
+  }
+
+  .navi {
+    display: none;
+  }
+  .headre-icon {
+    display: flex;
+    gap: 1rem;
+  }
+  .menu {
+    margin: 1rem 0;
+    padding: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: blueviolet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fa-bars {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .hero-main {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    margin-bottom: 2rem;
+  }
+  .last-icon {
+    padding-right: 2rem;
+  }
+  #texticonh4 {
+    font-size: 2rem;
+  }
+  .fa-angellist {
+    font-size: 3rem;
+  }
+  .about-main {
+    flex-direction: column;
+    text-align: start;
+  }
+  .about-icon {
+    width: 12rem;
+    height: 8rem;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .fa-amazon {
+    font-size: 3rem;
+  }
+  .about-text h4 {
+    font-size: 3rem;
+  }
+  .about-text p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about2-main {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .about2box p {
+    font-size: 3rem;
+    top: 24rem;
+  }
+  .start-main {
+    justify-content: center;
+  }
+  .start-text {
+    width: 100%;
+  }
+  .customer-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .customer-text {
+    text-align: center;
+  }
+  .customer-text h4 {
+    width: 100%;
+  }
+  .cutomer-list li {
+    font-size: 2.5rem;
+  }
+  .cutomer-list span {
+    font-size: 3.5rem;
+  }
+  .customer-textbtn button {
+    padding: 2rem 4rem;
+    margin: 3rem 0;
+    font-size: 3rem;
+  }
+  .start2-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .recents-head > p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .recents-head > h4 {
+    font-size: 4rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .recents-main {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+  }
+  .recp2 {
+    top: 24.5rem;
+    font-size: 4rem;
+  }
+  .recp {
+    top: 22rem;
+    font-size: 3rem;
+  }
+  .testimonials-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .testimonials-text {
+    text-align: center;
+    padding: 2rem;
+  }
+  .testimonials-img {
+    text-align: center;
+    border-radius: 2rem;
+  }
+  .tesi-icons {
+    justify-content: center;
+  }
+  .last-head {
+    width: 100%;
+    padding: 2rem;
+  }
+  .last-main {
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .last-btn button {
+    padding: 2rem 4rem;
+    font-size: 3rem;
+  }
+}

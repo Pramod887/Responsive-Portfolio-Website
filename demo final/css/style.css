@@ -1,0 +1,615 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: serif;
+}
+#headre {
+  width: 100%;
+  background-color: rgb(40, 4, 219);
+  color: white;
+}
+.headre-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo h4 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 1.5rem 0;
+}
+.navi ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding: 2rem 0;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.search {
+  margin: 1rem 0;
+  padding: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: blueviolet;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-magnifying-glass {
+  font-size: 1.5rem;
+  color: white;
+}
+.menu {
+  display: none;
+}
+/*hero */
+
+.hero {
+  width: 100%;
+  min-height: 50rem;
+  padding: 2rem 0;
+  background-color: rgb(40, 4, 219);
+  color: white;
+}
+.hero-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-left: 10px solid red;
+  border-right: 10px solid blue;
+  border-top: 10px solid green;
+  border-bottom: 10px solid yellow;
+  border-radius: 2rem;
+}
+.hero-texticon {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+#texticonh4 {
+  font-size: 1rem;
+}
+.fa-angellist {
+  font-size: 2rem;
+  color: white;
+}
+.hero-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(48, 3, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text h4 {
+  font-size: 5rem;
+  line-height: 6.5rem;
+  margin-bottom: 2rem;
+}
+.hero-text p {
+  font-size: 2rem;
+  width: 80%;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+.hero-btn button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: rgb(222, 222, 57);
+  color: white;
+}
+.last-icon {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+.last-icon1 {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(159, 5, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-icon i {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+/*about*/
+
+.about {
+  width: 100%;
+  min-height: auto;
+  padding: 2rem 0;
+}
+.about-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 1.5rem;
+}
+.about-icon {
+  width: 8rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: rgb(159, 5, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-amazon {
+  font-size: 2rem;
+  color: white;
+}
+.about-text h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.about-text p {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+/*about2*/
+
+.about2 {
+  width: 100%;
+  min-height: 10rem;
+  padding: 2rem 0;
+}
+.about2-head {
+  text-align: center;
+  margin: 2rem 0;
+}
+.about2-head h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.about2-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.about2box {
+  width: 100%;
+  height: 30rem;
+  border-radius: 2rem;
+  position: relative;
+}
+.about2box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.about2box p {
+  background-color: red;
+  display: inline-block;
+  padding: 1rem 2rem;
+  position: absolute;
+  font-size: 1.8rem;
+  top: 25.8rem;
+}
+
+/*start*/
+
+.start {
+  width: 100%;
+  min-height: auto;
+  padding: 2rem 0;
+  background-color: rgb(40, 4, 219);
+  color: white;
+}
+.start-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.start-text {
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 4rem;
+  text-align: start;
+}
+.start-icon {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-gratipay {
+  font-size: 4rem;
+  color: rgb(209, 24, 24);
+}
+/*customers*/
+
+.customer {
+  width: 100%;
+  min-height: auto;
+  padding: 2rem 0;
+}
+
+.customer-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+}
+.customer-img {
+  width: 100%;
+  height: auto;
+}
+.customer-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-left: 10px solid red;
+  border-right: 10px solid blue;
+  border-top: 10px solid green;
+  border-bottom: 10px solid yellow;
+}
+
+.customer-text p {
+  font-size: 2rem;
+  color: yellowgreen;
+  margin-bottom: 1.5rem;
+}
+.customer-text h4 {
+  font-size: 4rem;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+.cutomer-list li {
+  list-style: none;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.cutomer-list i {
+  color: green;
+  margin-right: 1rem;
+}
+.cutomer-list span {
+  font-size: 2rem;
+}
+
+.customer-textbtn button {
+  padding: 1rem 2rem;
+  background-color: yellowgreen;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  margin-left: 3rem;
+}
+
+/*start*/
+
+.start2 {
+  width: 100%;
+  min-height: auto;
+  padding: 4rem 0;
+  background-color: rgb(40, 4, 219);
+  color: white;
+}
+.start2-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.start2box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start2-icon {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: rgb(69, 25, 201);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-square-xmark {
+  font-size: 3rem;
+  color: rgb(222, 212, 212);
+}
+.box2-text {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+/*recents*/
+
+.recents {
+  width: 100%;
+  min-height: auto;
+  padding: 3rem 0;
+}
+.recents-head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.recents-head > p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.recents-head > h4 {
+  font-size: 3rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.recents-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  height: auto;
+}
+.recents1 {
+  background-image: url(../images/harvard-university-cambridge-usa.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  background-color: rgba(0, 6, 171, 0.694);
+  background-blend-mode: darken;
+  color: white;
+  position: relative;
+}
+
+.recp2 {
+  position: absolute;
+  top: 26rem;
+  left: 2rem;
+  font-size: 2rem;
+}
+.recp {
+  position: absolute;
+  top: 24rem;
+  left: 2rem;
+  font-size: 1.5rem;
+}
+.recents-btn {
+  text-align: center;
+}
+.recents-btn button {
+  padding: 1rem 2rem;
+  background-color: rgb(40, 4, 219);
+  color: white;
+  font-size: 2rem;
+  border: none;
+  margin: 2rem 0;
+}
+.testimonials {
+  width: 100%;
+  padding: 2rem 0;
+}
+.testimonials-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25rem;
+}
+.testimonials-text {
+  width: 100;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  text-align: start;
+}
+.mainp {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+.mainh {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.subp {
+  font-size: 1.5rem;
+}
+.testimonials-img {
+  border-radius: 2rem;
+}
+.tesi-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.tesi-left,
+.tesi-right {
+  width: 3rem;
+  height: 3rem;
+  background-color: yellowgreen;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-angle-left,
+.fa-angle-right {
+  font-size: 2rem;
+  color: white;
+}
+
+/*last*/
+.last {
+  width: 100%;
+  padding: 2rem 0;
+}
+.last-head {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.last-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.last1 {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.last1icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: yellowgreen;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-copyright {
+  font-size: 2rem;
+  color: white;
+}
+.last1text {
+  font-size: 2rem;
+}
+.last-btn {
+  text-align: center;
+}
+.last-btn button {
+  padding: 1rem 2rem;
+  background-color: rgb(40, 4, 219);
+  color: white;
+  font-size: 2rem;
+  border: none;
+  margin: 2rem 0;
+}
+
+/*demo
+.demo {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.demo-img {
+  max-width: 120rem;
+  margin: 0 auto;
+  position: relative;  
+}
+
+.demo-img img {
+  width: 100%;
+  min-height: 30rem;
+  object-fit: cover;
+  display: block;
+}
+
+/* Foreground RGBA overlay 
+.demo-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 6, 171, 0.55);
+}
+
+*/
+.demo {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.demo-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/harvard-university-cambridge-usa.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 30rem;
+}
+.demo1{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem;
+  height: 40rem;
+}
+.demo1-img{
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to bottom, black 50%, red 50%);
+}

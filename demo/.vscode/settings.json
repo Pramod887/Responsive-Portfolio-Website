@@ -1,0 +1,15 @@
+{
+  "css.format.spaceAroundSelectorSeparator": false,
+
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.parameterHints.enabled": true,
+
+  "css.validate": true,
+  "css.completion.enabled": true
+}

@@ -1,0 +1,32 @@
+@media (max-width: 32em) {
+  html {
+    font-size: 50%; /* 1rem = 8px */
+  }
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.navi{
+  display: none;
+}
+.menu i{
+  display:block;
+}
+.headre-main{
+   justify-content: space-between;
+   padding: 2rem;
+}
+.mobile-navi{
+  display: block;
+}
+.mobile-navi ul{
+  display: flex;
+ gap: 2rem;
+ flex-direction: column;
+ justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  list-style: none;
+}
+}

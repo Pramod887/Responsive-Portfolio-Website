@@ -1,0 +1,241 @@
+html{
+  font-size: 62.5%;
+}
+ *{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+ }
+  html,
+  body{
+    overflow-x: hidden;
+  }
+  body {
+    line-height: 1.6; /* Improved default line-height for better readability */
+    border: 8px solid white;
+  }
+  
+  /* Header */
+  .headre-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0; /* Consistent vertical padding */
+    margin: 0 20px; /* Consistent horizontal margin */
+  }
+  
+  .logo h4 {
+    font-size: 36px; /* Adjusted for better hierarchy */
+    text-transform: uppercase;
+  }
+  
+  .navi ul {
+    display: flex;
+    gap: 20px; /* Reduced gap for a tighter look */
+    font-size: 20px; /* Adjusted for better readability */
+  }
+  
+  /* Hero Section */
+  .hero {
+    width: 100%;
+    background-color: rgb(27, 26, 26);
+    padding: 20px 0; /* Consistent padding */
+  }
+  
+  .hero-main {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .hero-main img {
+    width: 100%;
+    height: 350px;
+    border: 8px solid white;
+    margin: 0; /* Removed margin as padding is handled by parent */
+  }
+  
+  /* About Section */
+  .about {
+    width: 100%;
+    background-color: rgb(138, 138, 138);
+    padding: 40px 0; /* Added vertical padding */
+    border-bottom: 8px solid white;
+  }
+  
+  .about-head {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px; /* Added horizontal padding */
+  }
+  
+  .about-head h4 {
+    font-size: 36px;
+    text-align: start;
+    margin-bottom: 30px; /* Space below the heading */
+  }
+  
+  .about-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; /* Increased gap for better separation */
+    padding: 0 20px; /* Added horizontal padding */
+  }
+  
+  .first {
+    font-size: 18px; /* Adjusted for better readability */
+    line-height: 1.7; /* Improved line-height for long text */
+  }
+  
+  /* Who We Are Section */
+  .who {
+    width: 100%;
+    background-color: blue;
+    padding: 60px 20px; /* Increased padding for better visual separation */
+    border-bottom: 8px solid white;
+    color: white;
+  }
+  
+  .who-main {
+    max-width: 1200px; /* Reduced max-width for better readability */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .who-main h4 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .who-main p {
+    font-size: 18px;
+    line-height: 1.7; /* Improved line-height */
+    max-width: 800px; /* Set max-width for readability */
+    margin: 0 auto;
+  }
+  
+  /* Icons Section */
+  .iconss {
+    width: 100%;
+    background-color: rgb(78, 73, 73);
+    padding: 50px 0; /* Increased vertical padding */
+    border-bottom: 8px solid white;
+  }
+  
+  .iconss-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; /* Changed to space-around for better distribution */
+    align-items: center;
+    padding: 0 20px; /* Added horizontal padding */
+  }
+  
+  .icon1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    height: 60px; /* Increased size for visual impact */
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px; /* Consistent margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa-calendar-check {
+    font-size: 30px; /* Adjusted icon size */
+  }
+  
+  .icon-text {
+    font-size: 18px; /* Adjusted font size */
+    color: white;
+  }
+  
+  /* Team Section */
+  .team {
+    width: 100%;
+    background-color: rgb(118, 113, 113);
+    padding: 60px 0; /* Increased vertical padding */
+    border-bottom: 8px solid white;
+  }
+  
+  .team-head {
+    text-align: center;
+    font-size: 36px; /* Adjusted for consistency */
+    text-transform: uppercase;
+    margin-bottom: 40px; /* Space below the heading */
+  }
+  
+  .team-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px; /* Adjusted gap */
+    justify-content: center;
+    align-items: flex-start; /* Aligned items to the start */
+    padding: 0 20px;
+  }
+  
+  .team1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .team-icon {
+    background-color: rgb(0, 0, 0);
+    width: 70px; /* Increased size */
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 15px; /* Space below icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa-user {
+    font-size: 35px;
+    color: white;
+  }
+  
+  .team-text {
+    text-align: center;
+  }
+  
+  .team-text h4 {
+    font-size: 20px; /* Adjusted font size */
+    margin-bottom: 5px; /* Space between name and title */
+  }
+  
+  .team-text p {
+    font-size: 16px; /* Adjusted font size */
+  }
+  
+  /* Last Section */
+  .last {
+    width: 100%;
+    background-color: rgb(126, 125, 124);
+    padding: 20px; /* Reduced padding */
+    color: white;
+  }
+  
+  .last-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px; /* Added gap between items */
+  }
+  
+  .last1 h4 {
+    font-size: 24px; /* Reduced font size */
+  }
+  

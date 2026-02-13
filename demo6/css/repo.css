@@ -1,0 +1,201 @@
+body {
+  overflow-x: hidden;
+}
+@media (min-width: 481px) and (max-width: 720px) {
+  html {
+    font-size: 55%;
+  }
+  .hearder-main {
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+  }
+  .navi {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .fa-bars {
+    font-size: 2.4rem;
+  }
+  .hero {
+    padding: 2.5rem;
+  }
+  .hero-text {
+    text-align: center;
+    width: 100%;
+    font-size: 3.2rem;
+  }
+  .chooes1 {
+    text-align: center;
+  }
+  .chooes-main {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .choes1 {
+    width: 100%;
+    padding: 2rem;
+  }
+  .choes1:nth-child(3) {
+    grid-column: 1 / -1;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .choes1 h5 {
+    font-size: 2.2rem;
+  }
+  .choes1 p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .fa-heart {
+    font-size: 3rem;
+  }
+  .work-main {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .work1 {
+    text-align: center;
+    padding: 2rem;
+  }
+  .work1:nth-child(3) {
+    grid-column:-3/-1;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .work1 img {
+    padding: 1.5rem;
+    height: 20rem;
+  }
+  .work1 h4 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .work1 h6 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .work1 p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .work-btn button {
+    padding: 1.2rem 2rem;
+    font-size: 1.4rem;
+  }
+  .about-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about {
+    height: auto;
+    padding: 2rem;
+  }
+  .about-img,
+  .about-text {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .about-img img {
+    width: 100%;
+    height: 18rem;
+  }
+  .about-text {
+    width: 100%;
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+  .hearder-main {
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .navi {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .fa-bars {
+    font-size: 2rem;
+  }
+  .hero {
+    padding: 2rem;
+  }
+  .hero-text {
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+  }
+  .chooes1 {
+    text-align: center;
+  }
+  .chooes-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .choes1 {
+    width: 100%;
+    padding: 2rem;
+  }
+  .choes1 h5 {
+    font-size: 4rem;
+  }
+  .choes1 p {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .fa-heart {
+    font-size: 5rem;
+  }
+  .work-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .work1 {
+    text-align: center;
+    padding: 2rem;
+  }
+  .work1 img {
+    padding: 2rem;
+    height: 25rem;
+  }
+  .work1 h4 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .work1 h6 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .work1 p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .work-btn button {
+    padding: 2rem 3rem;
+    font-size: 3rem;
+  }
+  .about-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about {
+    height: 55rem;
+    padding: 2rem;
+  }
+  .about-img,
+  .about-text {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .about-img img {
+    width: 100%;
+    height: 20rem;
+  }
+  .about-text {
+    width: 100%;
+    font-size: 8rem;
+  }
+}
